@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 2rem;
+
+
+        }
+        .box{
+            /* height: 50%; */
+            /* width: 100px; */ 
+            background-color: yellow;
+            border: 2px dashed black;
+            
+        }
+    </style>
+</head>
+<body>
+    <display class="container">
+        <display class="box"></display>
+        <display class="box"></display>
+        <display class="box"></display>
+        <display class="box" id="box4">
+            <display class="innerbox"></display>
+            <display class="innerbox"></display>
+        </display>
+        <display class="box"></display>
+        <display class="box"></display>
+        <display class="box"></display>
+        <display class="box"></display>
+
+        </display>
+    </display>
+</body>
+</html>

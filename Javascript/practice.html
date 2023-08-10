@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a = prompt("enter value ")
+
+        // if (a>=500){
+        //     let 500n = a/500
+        //     a = a%500
+        // }
+
+
+        // let i = prompt("enter value")
+        // let b = 0 
+        // while(b<=i/2){
+        //     console.log(b)
+        //     b++
+        // }
+// --------------------------------------------------------------------------------------------------------
+
+        // let a = prompt("enter value")
+        // let i = 0
+        // while(i <= a ){
+        //     if(i==a/2){
+        //        i++
+        //     }
+        //     else{
+        //         console.log(i)
+        //         i++
+
+        //     }
+        // }
+
+// -------------------------------------------------mention odd and even ----------------------------------------------------------------------
+        //  let a = prompt("enter value ")
+        //  let i = 0
+         
+        //  while(i<=a){
+        //     if(i%2==0){
+        //         console.log(i,"even")
+        //         i++
+        //     }
+        //     else{
+        //         console.log(i,"odd")
+        //         i++
+        //     }
+        //  }
+
+        // ---------------------------------------------------------------------------------------------------------
+
+
+        // let a = Number(prompt("enter your number"))
+        // let count = 0
+        // while(a>0){
+        //     a = parseInt(a/10)
+        //     count++
+        // }
+
+        // console.log(count)
+
+
+        // ------------------------------------------sum and reverse  of digit ----------------------------------------------
+
+         let a = Number(prompt("enter your number"))
+        let sum = 0
+        let x = 0
+        let reverse = 0
+        let orignal = a
+        while(a>0){
+           
+            x = parseInt(a%10)
+            sum = sum + x
+            reverse = reverse*10 + x
+            a = parseInt(a/10)
+            
+        }
+        console.log("orignal no. is : " , orignal)
+        console.log("sum is :" , sum)
+        console.log("reverse is:" , reverse)
+
+
+
+
+
+    </script>
+</body>
+</html>
